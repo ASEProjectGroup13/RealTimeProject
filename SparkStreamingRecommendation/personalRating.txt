@@ -1,0 +1,11 @@
+1000002::1::55::Toy Story (1995)
+1000002::1000006::33::Phil Collins Big Band
+1000002::1000007::8::The Phil Collins Big Band
+1000002::1000009::144::A Perfect Circle
+1000002::1000010::314::Aerosmith
+1000002::1000013::8::MC Hawking
+1000002::1000014::42::Pantera
+1000002::1000017::69::Judas Priest
+1000002::1000024::329::Metallica
+1000002::1000025::1::Terrorvision
+1000002::1000028::17::LynYrd Skynyrd

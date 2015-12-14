@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkstreamingrecommendation.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkstreamingrecommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkstreamingrecommendation-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkstreamingrecommendation-build.iml" />
+    </modules>
+  </component>
+</project>
