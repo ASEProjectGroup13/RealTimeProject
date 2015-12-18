@@ -4,7 +4,7 @@
 		module="sparkstreamingrecommendation$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151208235457"
+		publication="20151218011041"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

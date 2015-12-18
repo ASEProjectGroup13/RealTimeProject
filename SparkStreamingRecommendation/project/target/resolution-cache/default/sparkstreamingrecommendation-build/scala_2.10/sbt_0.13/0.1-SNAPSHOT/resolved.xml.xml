@@ -4,8 +4,8 @@
 		module="sparkstreamingrecommendation-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151207110008"
-		e:scalaVersion="2.10" e:sbtVersion="0.13"
+		publication="20151030004134"
+		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
 		sparkstreamingrecommendation-build

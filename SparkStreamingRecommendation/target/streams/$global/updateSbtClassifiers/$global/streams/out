@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1508ms :: artifacts dl 53ms
-[debug] 	report for default#sparkstreamingrecommendation$sbt_2.11;1.0 default produced in /home/venuk/Desktop/SparkStreamingRecommendation/target/resolution-cache/reports/default-sparkstreamingrecommendation$sbt_2.11-default.xml
-[debug] 	resolve done (1508ms resolve - 53ms download)
+[debug] :: resolution report :: resolve 3352ms :: artifacts dl 78ms
+[debug] 	report for default#sparkstreamingrecommendation$sbt_2.11;1.0 default produced in /Users/Venu/Desktop/Full Workflow/SparkStreamingRecommendation/target/resolution-cache/reports/default-sparkstreamingrecommendation$sbt_2.11-default.xml
+[debug] 	resolve done (3352ms resolve - 78ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#sparkstreamingrecommendation$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 192ms :: artifacts dl 52ms
-[debug] 	report for default#sparkstreamingrecommendation$sources_2.11;1.0 default produced in /home/venuk/Desktop/SparkStreamingRecommendation/target/resolution-cache/reports/default-sparkstreamingrecommendation$sources_2.11-default.xml
-[debug] 	resolve done (192ms resolve - 52ms download)
+[debug] :: resolution report :: resolve 565ms :: artifacts dl 86ms
+[debug] 	report for default#sparkstreamingrecommendation$sources_2.11;1.0 default produced in /Users/Venu/Desktop/Full Workflow/SparkStreamingRecommendation/target/resolution-cache/reports/default-sparkstreamingrecommendation$sources_2.11-default.xml
+[debug] 	resolve done (565ms resolve - 86ms download)

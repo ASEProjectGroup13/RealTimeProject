@@ -122,6 +122,9 @@ object Recommendation {
         i += 1
       }
 
+
+       iOSConnector.sendCommandToRobot(recommendedSongsBasedOnGenres(recommendations.toString))
+
       // clean up
     }
 
@@ -191,4 +194,64 @@ object Recommendation {
       ratings.toSeq
     }
   }
+
+//  def recommendedSongsBasedOnGenres(stringData: String): String = {  
+//
+//    var arrayString = stringData.split("::")
+//    var folderStructure = arrayString(0)
+//    var path = "src/main/resources"
+//    var outputs = ""
+//    if(arrayString(0).equals("CLASSICAL")) {
+//      path = path +"/"+arrayString(0)  
+//      var objects = new RecommendSongs() 
+//      outputs = objects.recommendSongs(path)    
+//    } else if(arrayString(0).equals("BLUES")){
+//      path = path +"/"+arrayString(0)  
+//      var objects = new RecommendSongs() 
+//      outputs = objects.recommendSongs(path)    
+//    }
+//
+//    return outputs
+//
+//  }
+
+  def recommendedSongsBasedOnGenres(stringData: String): String ={
+    var stringsData = "BLUES::HELLO"
+    var arrayString = stringData.split("::")
+    var folderStructure = arrayString(0)
+    var path = "src/main/resources"
+    var outputs = "";
+    if(arrayString(0).equals("CLASSICAL")){
+      path = path +"/"+arrayString(0)
+      var objects = new RecommendSongs()
+      outputs = objects.recommendSongs(path)
+    }else if(arrayString(0).equals("BLUES")){
+      path = path +"/"+arrayString(0)
+      var objects = new RecommendSongs()
+      outputs = objects.recommendSongs(path)
+    }
+    return outputs
+  }
+
+//  def recommendedSongsBasedOnGenres(stringData: String): String ={  
+//    var stringsData = "CLASSIC::HELLO"  
+//      var arrayString = stringData.split("::")
+//          var folderStructure = arrayString(0)  
+//        var path = "src/main/resources"  
+//         var outputs = "";
+//          if(arrayString(0).equals("CLASSICAL")){
+//              path = path +"/"+arrayString(0)  
+//           var objects = new RecommendSongs() 
+//              outputs = objects.recommendSongs(path)    
+//               }
+//          else if(arrayString(0).equals("BLUES")){  
+//          path = path +"/"+arrayString(0)  
+//           var objects = new RecommendSongs() 
+//              outputs = objects.recommendSongs(path)    
+//
+//          }else if(arrayString(0).equals("ROCK")){  
+//           }  
+//             return outputs 
+//  }
+
 }
